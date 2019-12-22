@@ -121,6 +121,7 @@ def create_app(test_config=None):
         except ValueError:
             abort(422)
         except:
+            print(sys.exc_info())
             abort(500)
 
     '''
