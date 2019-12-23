@@ -9,6 +9,26 @@ You have been called on to demonstrate your newly learned skills to create a ful
 3. Allow the shop baristas to see the recipe information.
 4. Allow the shop managers to create new drinks and edit existing drinks.
 
+## RBAC Roles and Permissions
+
+### Permissions
+
+- `get:drinks-detail`
+- `post:drinks`
+- `patch:drinks`
+- `delete:drinks`
+
+### Roles
+
+- Barista
+  - can `get:drinks-detail`
+- Manager
+  - can perform all actions
+
+## API documentation
+
+https://documenter.getpostman.com/view/1321295/SWLYBWP2?version=latest
+
 ## Tasks
 
 There are `@TODO` comments throughout project. We recommend tackling the sections in order. Start by reading the READMEs in:
