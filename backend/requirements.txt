@@ -4,7 +4,7 @@ Authlib==0.13
 autopep8==1.4.4
 cffi==1.13.2
 Click==7.0
-cryptography==2.8
+cryptography==3.2
 ecdsa==0.13.2
 Flask==1.0.2
 Flask-Cors==3.0.8
